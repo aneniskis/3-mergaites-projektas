@@ -11,23 +11,24 @@ header {
     margin-top: 15px;
     width: 800px;
     margin-left: calc((100% - 800px) / 2); 
-    background-color: green;
 }
 header > img {
     float: left;
 }
 nav {
     float: right;
+    margin-top: 3%;
 }
 a{
     text-decoration: none;
     color: #9F9F9F;
+    padding: 0.5em;
+    font-size: 12px;
 }
 main{
     width: 800px;
     margin-left: calc((100% - 800px) / 2); 
     display: inline-block;
-    background-color: red;
 }
 div {
     float: left;
@@ -49,7 +50,15 @@ p {
 }
 main > img {
     float: right;
-    background-color: royalblue;
     width: 50%;
     margin-right: 2.5%;
+}
+.a1 {
+    border: 3px solid #9F9F9F;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
 }
