@@ -6,7 +6,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://aneniskis.github.io/3-mergaites-projektas/
 
-Design: [Madchen] (https://cdn.discordapp.com/attachments/850245533838868480/850246211415834634/unknown.png)
+Design: [Madchen](https://cdn.discordapp.com/attachments/850245533838868480/850246211415834634/unknown.png)
 
 ## Project features
 
