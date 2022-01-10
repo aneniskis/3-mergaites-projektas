@@ -26,19 +26,28 @@ main{
     margin-left: calc((100% - 800px) / 2); 
     display: inline-block;
     background-color: red;
-
 }
 div {
     float: left;
-
+    color: #9E9E9E;
+    width: 45%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    margin-left: 2.5%;
 }
 h1 {
-
+    font-size: 70px;
+    margin: 0;
+    width: 100%;
 }
 p {
-
+    font-size: 35px;
+    margin: 0;
+    width: 100%;
 }
 main > img {
     float: right;
     background-color: royalblue;
+    width: 50%;
+    margin-right: 2.5%;
 }
