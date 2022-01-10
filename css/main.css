@@ -9,15 +9,14 @@ header {
     display: inline-block;
     width: 100%;
     margin-top: 15px;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2); 
 }
 header > img {
     float: left;
+    width: 55px;
 }
 nav {
     float: right;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 a{
     text-decoration: none;
@@ -26,8 +25,6 @@ a{
     font-size: 12px;
 }
 main{
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2); 
     display: inline-block;
 }
 div {
@@ -54,11 +51,10 @@ main > img {
     margin-right: 2.5%;
 }
 .a1 {
+    text-transform: uppercase;
     border: 3px solid #9F9F9F;
     border-radius: 10px;
+    padding: 0;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-
 }
