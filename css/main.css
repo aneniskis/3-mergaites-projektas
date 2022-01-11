@@ -3,25 +3,25 @@ body {
     background-color: #f8f8f8;
     margin: 0;
 }
-header {
+.main-header {
     display: inline-block;
     margin-top: 15px;
     width: 800px;
     margin-left: calc((100% - 800px) / 2); 
     float: left;
 }
-header > img {
+.logo {
     float: left;
     width: 150px;
     height: 60px;
     object-fit: contain;
     object-position: left;
 }
-nav {
+.main-nav {
     float: right;
     margin-top: 12px;
 }
-nav > a{
+.menu-link {
     float: left;
     border: 3px solid transparent;
     line-height: 10px;
@@ -30,38 +30,37 @@ nav > a{
     padding-right: 10px;
     text-decoration: none;
     color: #9E9E9E;
-
 }
-a:last-of-type{
+.menu-link:last-of-type {
     border-color: #9E9E9E;
     margin-left: 15px;
     border-radius: 18px ;
     
 }
-main{
+.content {
     width: 800px;
     margin-left: calc((100% - 800px) / 2); 
     margin-top: 30px;
     float: left;
 }
-div {
+.text {
     float: left;
     color: #9E9E9E;
     width: 43%;
     margin-top: 5%;
     margin-left: 2.5%;
 }
-h1 {
+.title {
     font-size: 70px;
     margin: 0;
     width: 100%;
 }
-p {
+.description {
     font-size: 35px;
     margin: 0;
     width: 100%;
 }
-main > img {
+.picture {
     float: right;
     width: 50%;
     margin-right: 2.5%;
